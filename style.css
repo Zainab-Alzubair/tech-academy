@@ -186,9 +186,107 @@ svg {
   display: flex;
   justify-content: space-between;
 }
-.nav-list{
+
+/* Nav */
+
+#nav-wrap {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(60, 58, 57);
+  position: fixed;
+  top: 0;
+  left: 100%;
+  padding: 9%;
+  z-index: 11;
+  transition: 0.3s;
+  
+}
+@media (min-width: 769px) {
+  .nav-bar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+}
+.close-button {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+
+@media (min-width: 769px) {
+  .close-button {
+    top: 20px;
+    right: 20px;
+  }
+}
+#humberger{
+  max-width: 100%;
+  display: block;
+}
+.close-button img {
+  height: 50px;
+}
+
+#nav-m-wrap {
+  position: absolute;
+  top: 15%;
+  width: 82%;
+}
+
+#nav-m-wrap a {
+  width: 100%;
   display: flex;
-  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  border-bottom: 1px solid rgb(111, 108, 107);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+@media (min-width: 769px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.nav-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  list-style: none;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+li a{
+  color: hsl(12, 88%, 59%);
+}
+.menu-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  color: #f4f5f7;
+}
+@media (min-width: 769px) {
+  .menu-button {
+    display: none;
+  }
 }
 #hero{
 height: 100vh;
@@ -293,6 +391,8 @@ footer {
   justify-content: space-between;
 
 }
+
+/* ABOUT PAGE  */
 .about{
   display: flex;
   flex-direction: column;
@@ -344,7 +444,6 @@ display: flex;
   align-items: center;
 
 }
-/* ABOUT PAGE  */
 #about-hero{
   flex-direction: column;
  
@@ -393,4 +492,10 @@ text-align: center;
   max-width: 100%;
   display: block;
   margin: auto;
+}
+.about-footer {
+  background-color:rgb(46,46,46);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
 }
