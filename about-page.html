@@ -15,17 +15,29 @@
 <body>
   <header class="primary-header">
     <div class="container">
-          <nav class="navigation">
-          <a href="#"><img class="logo"src="/img/logo-2.png" alt="Manage" /></a>
-        <ul  class="nav-list text-neutral-900">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/about-page.html">About</a></li>
-          <li><a href="/index.html#courses">Courses</a></li>
-          <li><a href="/index.html#instructor">Instrictors</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+      <nav class="navigation">
+      <a href="#"><img class="logo"src="/img/logo-2.png" alt="Manage" /></a>
+      <div class="nav-bar">
+      <ul  class="nav-list text-neutral-900">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about-page.html">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#instructor">Instrictors</a></li>
+    </ul>
+      </div>
+    <div class="menu-button"><img id="humberger" src="img/mobile_menu.png" ></div>
+  </nav>
+</div>
+</header>
+<div id="nav-wrap">
+<div id="close-button"><img src="img/x-icon.svg" alt="X"></div>
+<div id="nav-m-wrap">
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/about-page.html">About</a></li>
+  <li><a href="#courses">Courses</a></li>
+  <li><a href="#instructor">Instrictors</a></li>
+</div>
+</div>
 
   <main>
     <section id="about-hero">
@@ -100,7 +112,7 @@
   </footer>
 
 
-  <script type="module" src="/main.js"></script>
+  <script src="nav-menu.js"></script>
 </body>
 
 </html>
