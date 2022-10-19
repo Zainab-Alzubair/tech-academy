@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tech Academy</title>
   <link rel="stylesheet" href="https://use.typekit.net/kjf8squ.css">
+  <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +16,8 @@
   <header class="primary-header">
     <div class="container">
           <nav class="navigation">
-          <a href="#"><img class="logo"src="/img/logo-2.png" alt="Manage" /></a>
+            <div class="menu-button"><img id="humberger" src="img\menu.svg" ></div>
+            <a href="/index.html"><img class="logo"src="/img/logo-2.png" alt="Manage" /></a>
           <div class="nav-bar">
           <ul  class="nav-list text-neutral-900">
           <li><a href="/index.html">Home</a></li>
@@ -23,7 +26,7 @@
           <li><a href="#instructor">Instrictors</a></li>
         </ul>
           </div>
-        <div class="menu-button"><img id="humberger" src="img/mobile_menu.png" ></div>
+        
       </nav>
     </div>
   </header>
@@ -99,78 +102,7 @@
           <!-- <hr class="line"> -->
         </div>
         <div class="even-columns-instructor">
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker1.png">
-            </div>
-            <div>
-              <h3>Angela Mark</h3>
-              <h3>full-stack developer</h3>
-              <!-- <hr class="line"> -->
-              <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </div>
-          </div>
-
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker2.png">
-            </div>
-            <div>
-              <h3>Steph Portilla</h3>
-              <h3>Web application developer</h3>
-              <!-- <hr> -->
-              <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. maiores? Inventore suscipit ipsa ex perspiciatis accusantium sint eligendi ad magni reprehenderit non neque.</p>
-            </div>
-          </div>
-
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker3.png">
-            </div>
-            <div>
-              <h3>Jose Steele</h3>
-              <h3>Front end developer</h3>
-              <!-- <hr> -->
-              <p class="">Lorem ipsum dolor sit, amet  Exercitationem tenetur ullam quia maiores? Inventore suscipit ipsa ex perspiciatis accusantium sint eligendi ad magni reprehenderit non neque.</p>
-            </div>
-          </div>
-
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker4.png" alt="">
-            </div>
-            <div>
-              <h3>Colt Jonas</h3>
-              <h3>Back end developer </h3>
-              <!-- <hr> -->
-              <p class="">Lorem ipsum dolor Exercitationem tenetur ullam quia maiores? Inventore suscipit ipsa ex perspiciatis accusantium sint eligendi ad magni reprehenderit non neque.</p>
-            </div>
-          </div>
-
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker5.png">
-            </div>
-            <div>
-              <h3>Kyle Tim</h3>
-              <h3>Web Designer </h3>
-              <!-- <hr> -->
-              <p class="">Lorem ipsum dolor sit,Exercitationem tenetur ullam quia maiores? Inventore suscipit ipsa ex perspiciatis accusantium sint eligendi ad magni reprehenderit non neque.</p>
-            </div>
-          </div>
-
-          <div class="instructor-card">
-            <div>
-              <img src="/img/speaker6.png">
-            </div>
-            <div>
-              <h3>Jonas Deo</h3>
-              <h3>Game developer </h3>
-              <!-- <hr> -->
-              <p class="">Lorem ipsum dolor Exercitationem tenetur ullam quia maiores? Inventore suscipit ipsa ex perspiciatis accusantium sint eligendi ad magni reprehenderit non neque.</p>
-            </div>
-          </div>
-         
+        <!-- Dta fech from obj -->
         </div>
       </div>
     </section>
@@ -208,7 +140,7 @@
       </div>
     </div>
   </footer>
-
+<script src="script.js"></script>
 <script src="nav-menu.js"></script>
 </body>
 

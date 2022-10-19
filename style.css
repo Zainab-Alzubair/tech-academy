@@ -192,10 +192,10 @@ svg {
 #nav-wrap {
   height: 100vh;
   width: 100vw;
-  background: rgb(60, 58, 57);
+  background: #32353C;
   position: fixed;
   top: 0;
-  left: 100%;
+  right: 100%;
   padding: 9%;
   z-index: 11;
   transition: 0.3s;
@@ -218,7 +218,7 @@ svg {
 .close-button {
   position: absolute;
   top: 2%;
-  right: 5%;
+  left: 5%;
 }
 
 @media (min-width: 769px) {
@@ -227,10 +227,7 @@ svg {
     right: 20px;
   }
 }
-#humberger{
-  max-width: 100%;
-  display: block;
-}
+
 .close-button img {
   height: 50px;
 }

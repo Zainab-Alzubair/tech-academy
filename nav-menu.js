@@ -12,6 +12,6 @@ cross.addEventListener('click', () => {
 
 for (let i = 0; i < navWBtn.length; i += 1) {
   navWBtn[i].addEventListener('click', () => {
-    document.getElementById('nav-wrap').style.left = '100%';
+    document.getElementById('nav-wrap').style.right = '100%';
   });
 }
