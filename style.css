@@ -271,7 +271,7 @@ li a{
 height: 100vh;
 display: flex;
 align-items: center;
-background-image: url(/img/main_big-bg.png);
+background-image: url(img/main_big-bg.png);
 background-repeat: no-repeat;
 }
 .hero-headline{
@@ -312,7 +312,7 @@ padding-top: 2rem;
 }
 #courses{
   background-color: rgb(39, 42, 50);
-  background-image: url(/img/pattern_bg.png);
+  background-image: url(img/pattern_bg.png);
   background-repeat: repeat;
   display: flex;
   align-items: center;
@@ -453,7 +453,7 @@ justify-content: center;
   height: 90vh;
 display: flex;
 margin: auto auto;
-background-image: url(/img/main_big-bg.png);
+background-image: url(img/main_big-bg.png);
 background-repeat: no-repeat;
 text-align: center;
 
