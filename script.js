@@ -51,8 +51,9 @@ function displayCards() {
       <img src="${card.img}">
     </div>
     <div>
-      <h3>${card.name}</h3>
-      <h3>${card.title}</h3>
+      <h3 class="fw-bold fs-500">${card.name}</h3>
+      <div class="guide_bar-inst"></div>
+      <h3 class="text-accent-400 fw-bold">${card.title}</h3>
       <p class="">${card.des}</p>
     </div>
   </div>`;
