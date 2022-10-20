@@ -57,6 +57,8 @@ li {
 html,
 body {
   height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 /* Set core root defaults */
@@ -318,7 +320,7 @@ li a {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   background-color: rgba(34, 37, 43, 0.174);
   margin-top: 5%;
-  margin-bottom: 10%;
+ 
 }
 
 #courses {
@@ -345,7 +347,6 @@ li a {
   margin-bottom: 10px;
   margin-top: 0;
 }
-
 .course-card {
   background-color: rgb(47, 49, 55);
   margin: 0.3rem;
@@ -353,16 +354,63 @@ li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   gap: 20px;
   transition: all 0.2s ease-in-out;
 }
+@media (min-width: 769px) {
+.course-card {
+  flex-direction: column;
+}
+}
 
 .course-card:hover {
   transform: scale(1.05);
+  border: 2px solid white;
 }
 
+@media (min-width: 769px) {
+  .see-more {
+    color: #f4f5f7;
+    margin-top: 5%;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+   
+  }
+  .see-more-btn{
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .see-more {
+   display: none;
+  }
+  .btn-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .see-more-btn{
+  background-color: rgb(255,79,56);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px solid #f55800;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 70%;
+  max-width: 100%;
+  display: block;
+  }
+}
 .even-columns-instructor {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -429,6 +477,10 @@ footer {
 .mail-link {
   color: black;
   text-decoration: underline;
+  margin-bottom: 50%;
+}
+.mail-link-wrap{
+  margin-bottom: 10%;
 }
 
 .webiner {
@@ -466,7 +518,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
   display: flex;
   margin: auto auto;
   background-image: url(img/main_big-bg.png);
@@ -517,8 +568,24 @@ footer {
 }
 
 .about-footer {
+  background-color: rgb(242, 242, 242);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: black;
+}
+.partners-list-about{
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  #partner-section{
+    display: none;
+  }
+ 
+.about-footer {
   background-color: rgb(46, 46, 46);
   padding-top: 5%;
   padding-bottom: 5%;
   color: white;
+}
 }
