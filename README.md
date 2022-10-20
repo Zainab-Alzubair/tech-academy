@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple steps.
 
 git clone git@github.com:Zainab-Alzubair/tech-academy.git
 
-## live version
+## Online version
 https://zainab-alzubair.github.io/tech-academy/
 ## Authors
 
