@@ -1,38 +1,38 @@
 // dynamic preview-cards
 const cards = [{
 
-  img: '/img/speaker1.png',
+  img: 'img/speaker1.png',
   name: 'Angela Mark',
   title: 'full-stack developer',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
 
 },
 {
-  img: '/img/speaker2.png',
+  img: 'img/speaker2.png',
   name: 'Steph Portilla',
   title: 'Web application developer',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
 },
 {
-  img: '/img/speaker3.png',
+  img: 'img/speaker3.png',
   name: 'Jose Steele',
   title: 'Front end developer',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
 },
 {
-  img: '/img/speaker4.png',
+  img: 'img/speaker4.png',
   name: 'Colt Jonas',
   title: 'Back end developer',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
 },
 {
-  img: '/img/speaker5.png',
+  img: 'img/speaker5.png',
   name: 'Kyle Tim',
   title: 'Web Designer ',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
 },
 {
-  img: '/img/speaker6.png',
+  img: 'img/speaker6.png',
   name: 'Jonas Deo',
   title: 'Game developer',
   des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ',
