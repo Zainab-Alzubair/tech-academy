@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Academy</title>
+  <link rel="stylesheet" href="https://use.typekit.net/kjf8squ.css">
+  <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="top-nav-wrap">
+  <div class="container top-nav">
+    <ul class="top-nav-list">
+      <li>
+        <a href="#"><img src="img/twitter.png"alt="twitter-icon"></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/linkedin.png"alt="linkedin-icon"></a>
+      </li>
+     <li>
+       <a href="#">English</a>
+     </li>
+     <li>
+       <a href="#">My page</a>
+     </li>
+     <li>
+       <a href="#">Logout</a>
+     </li>
+    </ul>
+   </div>
+  </div>
+
+  <header class="container primary-header flex">
+   <div>
+     <a href="index.html"><img class="logo"src="img/logo-2.png" alt="logo" /></a>
+   </div>
+  
+    <nav>
+      <button class="mobile-nav-toggle"aria-controls="primart-navigation" aria-expanded="false"></button>
+      <ul id="primary-navigation" data-visible="false"class="primary-navigation flex">
+      <li class="active">
+       <a  href="index.html">
+        Home
+       </a>
+       <li>
+        <a href="about-page.html">
+         About
+        </a>
+      </li>
+      <li>
+        <a class="nav-list-item" href="index.html#courses">
+         Courses
+        </a>
+      </li>
+      <li>
+        <a class="nav-list-item" href="index.html#instructor">
+         Instrictors
+        </a>
+      </li>
+    </ul>
+   </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <div class="container">
+        <div>
+            <h2 class="fs-secondary-heading fw-bold text-accent-400 ">"Hello! future Devs"</h2>
+            <div class="hero-headline">  
+            <h1 class="hero-headline text-accent-400 ">Break into tech with <br>the tech academy </h1>
+          </div>
+          
+          <div class="offer-text">
+            <p class="fs-600">We offer open enrollment Courses, which means students can begin <br>studying at any time, from anywhere.</p>
+          </div>
+            <h2 class="fs-secondary-heading text-neutral-100 fw-bold ">September- December 2022</h2>
+            <h3 class="fs-600 text-neutral-900">20% off the course fee from September- December 2022!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses">
+      <div class="container">
+        <div>
+          <h2 class="title fs-700 text-accent-100 fw-semi-bold" >Our Courses</h2>
+          <div class="guide_bar"></div>
+        </div>
+        <div class="even-columns-course">
+          <div class="course-card">
+            <img class="course-icon" src="img/html-5.png" alt="Html-icon">
+            <h3 class="fw-bold fs-500">HTML</h3>
+            <p class="course-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="course-card">
+            <img class="course-icon"src="img/css-3.png" alt="Css-icon">
+            <h3 class="fw-bold fs-500">CSS</h3>
+            <p class="course-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="course-card">
+            <img class="course-icon" src="img/bootstrap.png" alt="bootstrap-icon">
+            <h3 class="fw-bold fs-500">Bootstrap</h3>
+            <p class="course-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="course-card">
+            <img class="course-icon" class="course-icon" src="img/js.png" alt="js-icon">
+            <h3 class="fw-bold fs-500">JavaScript</h3>
+            <p class="course-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="course-card">
+            <img  class="course-icon" src="img/java.png" alt="java-icon">
+            <h3 class="fw-bold fs-500">Java</h3>
+            <p class="course-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+          <a href="#" class="see-more">See The Whole Courses</a>
+          <div class="btn-wrap">
+          <button class="see-more-btn">Join Our Courses</button>
+          </div>
+      </div>
+      
+    </section>
+
+    <section id="instructor">
+      <div class="container ">
+        <div>
+          <h2 class="title title fs-700 text-neutral-900 fw-semi-bold">Top instructor</h2>
+          <div class="guide_bar"></div>
+        </div>
+        <div class="even-columns-instructor">
+        <!-- Data fech from obj -->
+        </div>
+      </div>
+    </section>
+
+    <section > 
+      <div id="partners-row">
+      <div class="container">
+          <div>
+            <h2 class="title fs-700 text-neutral-100 fw-semi-bold">Trusted by the best</h2>
+            <div class="guide_bar"></div>
+          </div>
+          <div class="partners-list">
+            <ul  class="partners-icon" aria-label="partners icon">
+              <li><img src="img/box-dark.svg" alt="partner-logo"></li>
+              <li><img src="img/eventbrite-dark.svg"alt="partner-logo"></li>
+              <li><img src="img/nasdaq-dark.svg"alt="partner-logo"></li>
+              <li><img src="img/netapp-dark.svg"alt="partner-logo"></li>
+              <li><img src="img/tcs-dark.svg"alt="partner-logo"></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="even-columns">
+        <div>
+          <a href="#"><img src="img/logo-2.png" alt="logo"></a>
+        </div>
+        <div>
+            <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+<script src="nav-menu.js"></script>
+</body>
+
+</html>
