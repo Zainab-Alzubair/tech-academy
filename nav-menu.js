@@ -1,17 +1,25 @@
-const cross = document.querySelector('#close-button');
-const navWBtn = document.getElementsByClassName('nav-w-btn');
-const humberger = document.querySelector('#humberger');
+const primaryNav = document.querySelector('.primary-navigation');
+const navToggle = document.querySelector('.mobile-nav-toggle');
+const navLink = document.querySelectorAll('.nav-list-item');
 
-humberger.addEventListener('click', () => {
-  document.getElementById('nav-wrap').style.left = 0;
+navToggle.addEventListener('click', () => {
+  const visibilty = primaryNav.getAttribute('data-visible');
+
+  if (visibilty === 'false') {
+    primaryNav.setAttribute('data-visible', true);
+    navToggle.setAttribute('aria-expanded', true);
+  } else if (visibilty === 'true') {
+    primaryNav.setAttribute('data-visible', false);
+    navToggle.setAttribute('aria-expanded', false);
+  }
 });
 
-cross.addEventListener('click', () => {
-  document.getElementById('nav-wrap').style.left = '100%';
-});
-
-for (let i = 0; i < navWBtn.length; i += 1) {
-  navWBtn[i].addEventListener('click', () => {
-    document.getElementById('nav-wrap').style.right = '100%';
+for (let i = 0; i < navLink.length; i += 1) {
+  navLink[i].addEventListener('click', () => {
+    const visibilty = primaryNav.getAttribute('data-visible');
+    if (visibilty === 'true') {
+      primaryNav.setAttribute('data-visible', false);
+      navToggle.setAttribute('aria-expanded', false);
+    }
   });
 }

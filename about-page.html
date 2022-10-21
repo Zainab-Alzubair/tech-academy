@@ -13,33 +13,58 @@
 </head>
 
 <body>
-  <header class="primary-header">
-    <div class="container">
-      <nav class="navigation">
-    <div class="menu-button"><img id="humberger" src="img\menu.svg" alt="menu-button"></div>
-
-      <a href="index.html"><img class="logo"src="img/logo-2.png" alt="logo" /></a>
-      <div class="nav-bar">
-      <ul  class="nav-list text-neutral-900 fw-bold fs-500">
-      <li><a class="nav-link" href="index.html">Home</a></li>
-      <li><a class="nav-link" href="about-page.html">About</a></li>
-      <li><a class="nav-link" href="#courses">Courses</a></li>
-      <li><a class="nav-link" href="#instructor">Instrictors</a></li>
-    </ul>
-      </div>
+  <div class="top-nav-wrap">
+    <div class="container top-nav">
+      <ul class="top-nav-list">
+        <li>
+          <a href="#"><img src="img/twitter.png" alt="twitter-icon"></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+        </li>
+       <li>
+         <a href="#">English</a>
+       </li>
+       <li>
+         <a href="#">My page</a>
+       </li>
+       <li>
+         <a href="#">Logout</a>
+       </li>
+      </ul>
+     </div>
+    </div>
+  
+    <header class="container primary-header flex">
+     <div>
+       <a href="index.html"><img class="logo"src="img/logo-2.png" alt="logo" /></a>
+     </div>
+      <nav>
+        <button class="mobile-nav-toggle"aria-controls="primart-navigation" aria-expanded="false"></button>
+        <ul id="primary-navigation" data-visible="false"class="primary-navigation flex">
+        <li class="active">
+         <a id="nav-list-item"href="index.html">
+          Home
+         </a>
+         <li>
+          <a id="nav-list-item"href="about-page.html">
+           About
+          </a>
+        </li>
+        <li>
+          <a id="nav-list-item"href="index.html#courses">
+           Courses
+          </a>
+        </li>
+        <li>
+          <a id="nav-list-item"href="index.html#instructor">
+           Instrictors
+          </a>
+        </li>
+      </ul>
   </nav>
 </div>
 </header>
-<div id="nav-wrap">
-<div id="close-button"><img src="img/x-icon.svg" alt="close-button"></div>
-<div id="nav-m-wrap">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about-page.html">About</a></li>
-  <li><a href="#courses">Courses</a></li>
-  <li><a href="#instructor">Instrictors</a></li>
-</div>
-</div>
-
   <main>
     <section id="about-hero">
       <div class="container">
